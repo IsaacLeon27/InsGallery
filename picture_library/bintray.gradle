@@ -14,13 +14,13 @@ allprojects {
     }
 }
 
-def siteUrl = 'https://github.com/JessYanCoding/InsGallery'   // 项目的主页
+def siteUrl = 'https://github.com/IsaacLeon27/InsGallery'
 
 publish {
-    userOrg = 'jessyancoding'      //bintray注册的用户名
-    groupId = 'me.jessyan'         //compile引用时的第1部分groupId
-    artifactId = 'insgallery'     //compile引用时的第2部分项目名
+    userOrg = 'isaleon'      //bintray注册的用户名
+    groupId = 'me.isaleon'         //compile引用时的第1部分groupId
+    artifactId = 'insgalleryES'     //compile引用时的第2部分项目名
     publishVersion = cfgs.versionName    //compile引用时的第3部分版本号
-    desc = 'Instagram-like image picker for Android.'
+    desc = 'Instagram-like image picker for Android ES Fork.'
     website = siteUrl
 }
